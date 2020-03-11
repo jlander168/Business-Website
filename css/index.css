@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "mainFont";
+    src: url("fonts/VAG Rounded Black SSi Bold.ttf") format("ttf")
+}
+
+* {
+    box-sizing: border-box;
+}
