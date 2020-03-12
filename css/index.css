@@ -1,8 +1,50 @@
 @font-face {
     font-family: "mainFont";
-    src: url("fonts/VAG Rounded Black SSi Bold.ttf") format("ttf")
+    src: url("fonts/VAG Rounded Black SSi Bold.ttf") format("truetype")
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-family: "mainFont";
+    padding: 10px;
+    opacity: .9;
+}
+header img {
+    position: relative;
+    right: 20%;
+}
+header ul {
+    position: relative;
+    list-style: none;
+    left: 15%;
+    font-size: 200%;
+    margin-top: 1.8%
+}
+header li {
+    display: block;
+    float: left;
+    padding: 20px
+}
+header a {
+    color: white;
+}
+
+.slideshow {
+    width: 100%;
+    
+}
+
