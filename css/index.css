@@ -21,7 +21,6 @@ header {
     color: white;
     font-family: "mainFont";
     padding: 10px;
-    opacity: .9;
 }
 header img {
     position: relative;
@@ -44,7 +43,75 @@ header a {
 }
 
 .slideshow {
-    width: 100%;
-    
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 9.2%
+}
+.slideshow img {
+    height: 580px;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+@keyframes fade {
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+.caption {
+    position: absolute;
+    top: 50%
 }
 
+.arrows {
+    background-color: rgb(0, 0, 0, .7);
+    color: white;
+    border: none;
+    font-size: 200%;
+    padding: 8px 24px;
+    user-select: none;
+    transition: .6s ease;
+    outline: none;
+}
+.arrows:hover {
+    cursor: pointer;
+    background-color: rgb(104, 104, 104, .7);
+}
+
+.left-arrow {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    border-radius: 0 25% 25% 0;
+}
+.right-arrow {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    border-radius: 25% 0 0 25%;
+}
+
+.dots {
+    text-align: center;
+}
+.dot {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(87, 87, 87, 0.8);
+    border-radius: 50%;
+    margin: 0 5px;
+    position: relative;
+    animation-name: fadeDot;
+    animation-duration: 1.5s;
+    transition: .5s ease;
+}
+.dot:hover {
+    cursor: pointer;
+    background-color: rgb(39, 39, 39);
+}
+.active {
+    background-color: rgb(39, 39, 39) !important;
+}
+@keyframes fadeDot {
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
