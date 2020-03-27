@@ -263,23 +263,25 @@ a {
 
     /* Data on Other Pages */
     .main2, .main3, .main4 {
-        padding-top: 9.2%;
+        padding-top: 10%;
         margin: 0 auto;
         text-align: center;
     }
+    .main2 img, .main3 img, .main4 img {
+        width: 20%;
+    }
     .main2 h1, .main3 h1, .main4 h1 {
         color: white;
-        font-size: 400%;
+        font-size: 200%;
         padding-bottom: 30px;
     }
     .data {
-        
         font-family: "mainFont";
         color: rgb(73, 73, 73);
         background: white;
         margin: 0 auto;
-        width: 50%;
-        font-size: 150%;
+        width: 80%;
+        font-size: 75%;
         text-align: center;
         border-collapse: collapse;
     }
@@ -351,13 +353,12 @@ a {
         color: rgba(235, 235, 235, 0.863);
         font-family: Arial, Helvetica, sans-serif;
         padding: 25px 50px;
-        height: 250px;
-        font-size: 105%;
+        height: 185px;
+        font-size: 70%;
     }
     footer iframe {
         width: 200px !important;
-        height: 150px;
-        padding-left: 50px;
+        height: 125px;
     }
     footer a {
         text-decoration: none;
@@ -617,6 +618,9 @@ a {
         margin: 0 auto;
         text-align: center;
     }
+    .main2 img, .main3 img, .main4 img {
+        width: 20%;
+    }
     .main2 h1, .main3 h1, .main4 h1 {
         color: white;
         font-size: 400%;
@@ -637,6 +641,7 @@ a {
         border: 2px solid black;
         padding: 10px
     }
+
     /* About section for Index */
     .about {
         background-color: rgb(144, 151, 202)
